@@ -8,7 +8,9 @@ Cores:
 1. Background dos posts = #fffafa
 2. Cor da data = #008080
 */
-
+body {
+  margin: 0px;
+}
 h1 {
   font-family: "Montserrat", sans-serif;
 }
@@ -24,9 +26,8 @@ h1 {
 }
 
 .post-container {
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+  margin: 0px auto 0px auto;
+  width: 55%;
   background-color: #fffafa;
   padding: 10px 0 10px 0;
 }
